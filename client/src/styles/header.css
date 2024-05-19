@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #000;
+  width: inherit;
+  height: 60px;
+  padding: 3px 20px;
+}
+
+.header p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header .navbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  width: fit-content;
+}
+
+.header .navbutton button {
+  border-radius: 15px;
+  width: 90px;
+  margin: 0 8px;
+  color: white;
+  height: 30px;
+  cursor: pointer;
+}
+
+.header .navbutton button:first-child {
+  background-color: #525252;
+  padding: 3px 2px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+}
+
+.header .navbutton button:last-child {
+  background-color: #bb0a21;
+  padding: 3px 2px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+}

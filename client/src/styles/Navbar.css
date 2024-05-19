@@ -1,0 +1,30 @@
+.navigationbar {
+  display: flex;
+  align-items: center;
+  background-color: #2b2a2a;
+  width: inherit;
+  border-radius: 12px;
+}
+
+.item {
+  width: 33.33%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 40px;
+}
+
+.item:first-child {
+  border-right: 1px solid black;
+}
+
+.item:last-child {
+  border-left: 1px solid black;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
